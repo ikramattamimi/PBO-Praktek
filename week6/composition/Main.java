@@ -19,10 +19,7 @@ class Kain {
 		System.out.println("\nKain");
 		System.out.println("Nama bahan      : " + nama);
 		System.out.println("Harga kain      : " + harga);	
-	}
-	
-	
-	
+	}	
 }
 
 class Kameja {

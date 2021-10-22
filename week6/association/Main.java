@@ -6,7 +6,6 @@
 
 package association;
 
-//class bank
 class Meja {
 	private String merek;
 	
@@ -19,7 +18,6 @@ class Meja {
 	}
 }
 
-//employee class
 class Laptop{
 	private String merek;
 	
@@ -41,8 +39,11 @@ class Main
 	{
 		Meja meja1 = new Meja("Olympic");
 		Laptop laptop1 = new Laptop("Asus");
+		Laptop laptop2 = new Laptop("HP");
 		
-		System.out.println("Laptop bermerek " + laptop1.getLaptop() + " ada di atas meja bermerek " + meja1.getMeja());
+		System.out.println("Laptop bermerek " + laptop1.getLaptop() +
+				" dan laptop bermerek " + laptop2.getLaptop() +
+				" ada di atas meja bermerek " + meja1.getMeja());
 	}
 }
 

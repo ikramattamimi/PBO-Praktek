@@ -60,15 +60,12 @@ class AndroidPhone{
 	public void setOS(AndroidOS os) {
 		this.os = os;
 	}
-	
 	public void start() {
 		this.os.turnOn();
 	}
-	
 	public void stop() {
 		this.os.turnOff();
 	}
-	
 	public void runApp() {
 		System.out.println("\n#Opening App");
 		System.out.println("App is Running");
