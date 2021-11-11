@@ -37,8 +37,8 @@ class KelasDua {
 	
 	public static void main(String[] args) {
 		System.out.println(6);
-//		KelasSatu satu = new KelasSatu();
-//		KelasSatu dua = new KelasSatu(10);
+		KelasSatu satu = new KelasSatu();
+		KelasSatu dua = new KelasSatu(10);
 	}
 
 }
